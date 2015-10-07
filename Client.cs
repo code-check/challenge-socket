@@ -16,7 +16,7 @@ namespace SocketChallenge
 
         public override void Connect(string ip, int port)
         {
-            ClientSocket = new Socket(SocketType.Stream, ProtocolType.Tcp);
+            ClientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             ClientSocket.BeginConnect(new IPEndPoint(IPAddress.Parse(ip), port), OnConnect, null);
         }
 
