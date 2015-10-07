@@ -1,0 +1,3 @@
+﻿build:
+  - mcs *.cs -reference:nunit.framework.dll -target:library -out:target/SocketChallenge.dll
+test: nunit-console target/SocketChallenge.dll
