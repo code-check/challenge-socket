@@ -1,0 +1,10 @@
+﻿{
+    "editable": [
+        "client.js"
+    ],
+    "excludes": [
+        ".gitignore",
+        "challenge.json"
+    ],
+    "test": "mocha"
+}

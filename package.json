@@ -1,0 +1,13 @@
+{
+    "name": "challenge-socket",
+    "version": "0.0.0",
+    "description": "challenge-socket",
+    "main": "test.js",
+    "author": "",
+    "dependencies": {
+        "chai": "^3.2.0"
+    },
+    "scripts": {
+        "test": "mocha"
+    }
+}
