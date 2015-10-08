@@ -1,4 +1,4 @@
-﻿//BEGIN_CHALLENGE
+//BEGIN_CHALLENGE
 var net = require("net");
 //END_CHALLENGE
 
