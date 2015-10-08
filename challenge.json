@@ -1,0 +1,10 @@
+{
+  "editable": [
+    "src/main/java/Client.java"
+  ],
+  "excludes": [
+    ".gitignore",
+    "challenge.json"
+  ],
+  "test": "mvn test"
+}
