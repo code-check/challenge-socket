@@ -6,5 +6,10 @@
     ".gitignore",
     "challenge.json"
   ],
-  "test": "mvn test"
+  "test": "mvn test",
+  "tags": [
+      "Java",
+      "WebSocket",
+      "Network"
+  ]
 }
