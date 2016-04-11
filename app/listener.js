@@ -1,4 +1,4 @@
-﻿var 
+var 
     net = require("net"),
     util = require("util"),
     EventEmitter = require('events').EventEmitter,

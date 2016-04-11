@@ -1,6 +1,6 @@
-﻿var assert = require("chai").assert,
-    Client = require("./client.js"),
-    listener = require("./listener.js");
+var assert = require("chai").assert,
+    Client = require("../app/client.js"),
+    listener = require("../app/listener.js");
 
 var client1, client2;
 var clients = [];
@@ -18,7 +18,9 @@ describe("Step 1", function () {
     before(function (done) {
         listener.on("listening", function (port) {
             client1 = new Client("127.0.0.1", port);
+            console.log("port",port);
             client2 = new Client("127.0.0.1", port);
+            console.log("port",port);
             
             setTimeout(function () {
                 done();

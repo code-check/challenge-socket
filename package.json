@@ -1,13 +1,26 @@
 {
-    "name": "challenge-socket",
-    "version": "0.0.0",
-    "description": "challenge-socket",
-    "main": "test.js",
-    "author": "",
-    "dependencies": {
-        "chai": "^3.2.0"
-    },
-    "scripts": {
-        "test": "mocha"
-    }
+  "name": "challenge-socket",
+  "version": "1.0.0",
+  "description": "Write a client that can connect over TCP to a server, the ip and port to connect to will be provided in the constructor of the client.",
+  "main": "app/client.js",
+  "scripts": {
+    "test": "mocha specs --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-check/challenge-socket.git"
+  },
+  "keywords": [
+    "mocha",
+    "socket"
+  ],
+  "author": "Givery Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-check/challenge-socket/issues"
+  },
+  "homepage": "https://github.com/code-check/challenge-socket#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
 }

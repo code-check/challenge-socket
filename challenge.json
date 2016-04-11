@@ -1,15 +1,23 @@
 ﻿{
-    "editable": [
-        "client.js"
-    ],
-    "excludes": [
-        ".gitignore",
-        "challenge.json"
-    ],
-    "test": "mocha",
-    "tags": [
-        "Node.js",
-        "WebSocket",
-        "Network"
-    ]
+  "tags": [
+    "WebSocket",
+    "NodeJs",
+    "Network"
+  ],
+  "editable": [
+    "app/client.js",
+    ".gitignore",
+    "answer.md",
+    "package.json"
+  ],
+  "excludes": [
+    "challenge.json"
+  ],
+  "main" : "app/client.js",
+  "readme" : {
+    "en" : "README.md",
+    "ja" : "README_ja.md"
+  },
+  "allowNewFile": true,
+  "test": "npm specs --recursive"
 }
